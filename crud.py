@@ -86,3 +86,6 @@ def delete_answer(db: Session, id: int): # 하나의 데이터 삭제 {item_id}
     db.commit()
 
     return True
+
+def results(db:Session,owner_id:int):
+    pass
